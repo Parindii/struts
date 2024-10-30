@@ -93,7 +93,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -308,10 +308,10 @@
                         <useDefaultExcludes>true</useDefaultExcludes>
                         <addDefaultLicenseMatchers>false</addDefaultLicenseMatchers>
                         <licenses>
-                            <licens implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20" />
+                            <licens implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20"/>
                         </licenses>
                         <licenseFamilies>
-                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily" />
+                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily"/>
                         </licenseFamilies>
                         <includes>
                             <include>pom.xml</include>
@@ -360,7 +360,7 @@
                             <id>enforce</id>
                             <configuration>
                                 <rules>
-                                    <dependencyConvergence />
+                                    <dependencyConvergence/>
                                 </rules>
                             </configuration>
                             <goals>
@@ -707,7 +707,7 @@
             <dependency>
                 <groupId>opensymphony</groupId>
                 <artifactId>sitemesh</artifactId>
-                <version>2.5.0</version>
+                <version>2.6.0</version>
             </dependency>
 
             <!-- Velocity -->
