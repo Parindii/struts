@@ -93,7 +93,7 @@
             <name>The Apache Software License, Version 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
-            <comments />
+            <comments/>
         </license>
     </licenses>
 
@@ -111,7 +111,7 @@
         <!-- dependency versions in alphanumeric order -->
         <asm.version>9.7</asm.version>
         <jackson.version>2.18.0</jackson.version>
-        <log4j2.version>2.24.1</log4j2.version>
+        <log4j2.version>2.25.1</log4j2.version>
         <ognl.version>3.3.5</ognl.version>
         <slf4j.version>2.0.16</slf4j.version>
         <spring.platformVersion>5.3.39</spring.platformVersion>
@@ -308,10 +308,10 @@
                         <useDefaultExcludes>true</useDefaultExcludes>
                         <addDefaultLicenseMatchers>false</addDefaultLicenseMatchers>
                         <licenses>
-                            <licens implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20" />
+                            <licens implementation="org.apache.rat.analysis.license.ApacheSoftwareLicense20"/>
                         </licenses>
                         <licenseFamilies>
-                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily" />
+                            <licenseFamily implementation="org.apache.rat.license.Apache20LicenseFamily"/>
                         </licenseFamilies>
                         <includes>
                             <include>pom.xml</include>
@@ -360,7 +360,7 @@
                             <id>enforce</id>
                             <configuration>
                                 <rules>
-                                    <dependencyConvergence />
+                                    <dependencyConvergence/>
                                 </rules>
                             </configuration>
                             <goals>
